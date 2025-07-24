@@ -152,7 +152,7 @@ main {
   display: flex;
   height: 90px;
   width: 225px;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-align: center;
   color: var(--text-dark);
 }
