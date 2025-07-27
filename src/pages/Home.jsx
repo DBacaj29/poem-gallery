@@ -1,6 +1,10 @@
 import { useMemo } from 'react';
 import { usePoems } from '../context/PoemsContext';
 import PoemGallery from '../components/PoemGallery';
+import Spinner from '../components/Spinner';
+import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+
 
 const Home = ({ searchTerm, filterLang }) => {
   const { poems, loading } = usePoems();
